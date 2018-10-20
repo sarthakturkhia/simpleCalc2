@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A824401A217716B500653A28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8244019217716B500653A28 /* AppDelegate.swift */; };
+		A824401C217716B500653A28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A824401B217716B500653A28 /* ViewController.swift */; };
+		A824401F217716B500653A28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A824401D217716B500653A28 /* Main.storyboard */; };
+		A8244021217716B700653A28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8244020217716B700653A28 /* Assets.xcassets */; };
+		A8244024217716B700653A28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8244022217716B700653A28 /* LaunchScreen.storyboard */; };
+		A824402F217716B700653A28 /* SimpleCalciOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A824402E217716B700653A28 /* SimpleCalciOSTests.swift */; };
+		A824403A217716B700653A28 /* SimpleCalciOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8244039217716B700653A28 /* SimpleCalciOSUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A824402B217716B700653A28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A824400E217716B500653A28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8244015217716B500653A28;
+			remoteInfo = SimpleCalciOS;
+		};
+		A8244036217716B700653A28 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A824400E217716B500653A28 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A8244015217716B500653A28;
+			remoteInfo = SimpleCalciOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A8244016217716B500653A28 /* SimpleCalciOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleCalciOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8244019217716B500653A28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A824401B217716B500653A28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A824401E217716B500653A28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A8244020217716B700653A28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A8244023217716B700653A28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A8244025217716B700653A28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A824402A217716B700653A28 /* SimpleCalciOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleCalciOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A824402E217716B700653A28 /* SimpleCalciOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCalciOSTests.swift; sourceTree = "<group>"; };
+		A8244030217716B700653A28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8244035217716B700653A28 /* SimpleCalciOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleCalciOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A8244039217716B700653A28 /* SimpleCalciOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCalciOSUITests.swift; sourceTree = "<group>"; };
+		A824403B217716B700653A28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A8244013217716B500653A28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8244027217716B700653A28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8244032217716B700653A28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A824400D217716B500653A28 = {
+			isa = PBXGroup;
+			children = (
+				A8244018217716B500653A28 /* SimpleCalciOS */,
+				A824402D217716B700653A28 /* SimpleCalciOSTests */,
+				A8244038217716B700653A28 /* SimpleCalciOSUITests */,
+				A8244017217716B500653A28 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A8244017217716B500653A28 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A8244016217716B500653A28 /* SimpleCalciOS.app */,
+				A824402A217716B700653A28 /* SimpleCalciOSTests.xctest */,
+				A8244035217716B700653A28 /* SimpleCalciOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A8244018217716B500653A28 /* SimpleCalciOS */ = {
+			isa = PBXGroup;
+			children = (
+				A8244019217716B500653A28 /* AppDelegate.swift */,
+				A824401B217716B500653A28 /* ViewController.swift */,
+				A824401D217716B500653A28 /* Main.storyboard */,
+				A8244020217716B700653A28 /* Assets.xcassets */,
+				A8244022217716B700653A28 /* LaunchScreen.storyboard */,
+				A8244025217716B700653A28 /* Info.plist */,
+			);
+			path = SimpleCalciOS;
+			sourceTree = "<group>";
+		};
+		A824402D217716B700653A28 /* SimpleCalciOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				A824402E217716B700653A28 /* SimpleCalciOSTests.swift */,
+				A8244030217716B700653A28 /* Info.plist */,
+			);
+			path = SimpleCalciOSTests;
+			sourceTree = "<group>";
+		};
+		A8244038217716B700653A28 /* SimpleCalciOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A8244039217716B700653A28 /* SimpleCalciOSUITests.swift */,
+				A824403B217716B700653A28 /* Info.plist */,
+			);
+			path = SimpleCalciOSUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A8244015217716B500653A28 /* SimpleCalciOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A824403E217716B700653A28 /* Build configuration list for PBXNativeTarget "SimpleCalciOS" */;
+			buildPhases = (
+				A8244012217716B500653A28 /* Sources */,
+				A8244013217716B500653A28 /* Frameworks */,
+				A8244014217716B500653A28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SimpleCalciOS;
+			productName = SimpleCalciOS;
+			productReference = A8244016217716B500653A28 /* SimpleCalciOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A8244029217716B700653A28 /* SimpleCalciOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8244041217716B700653A28 /* Build configuration list for PBXNativeTarget "SimpleCalciOSTests" */;
+			buildPhases = (
+				A8244026217716B700653A28 /* Sources */,
+				A8244027217716B700653A28 /* Frameworks */,
+				A8244028217716B700653A28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A824402C217716B700653A28 /* PBXTargetDependency */,
+			);
+			name = SimpleCalciOSTests;
+			productName = SimpleCalciOSTests;
+			productReference = A824402A217716B700653A28 /* SimpleCalciOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A8244034217716B700653A28 /* SimpleCalciOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8244044217716B700653A28 /* Build configuration list for PBXNativeTarget "SimpleCalciOSUITests" */;
+			buildPhases = (
+				A8244031217716B700653A28 /* Sources */,
+				A8244032217716B700653A28 /* Frameworks */,
+				A8244033217716B700653A28 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A8244037217716B700653A28 /* PBXTargetDependency */,
+			);
+			name = SimpleCalciOSUITests;
+			productName = SimpleCalciOSUITests;
+			productReference = A8244035217716B700653A28 /* SimpleCalciOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A824400E217716B500653A28 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Sarthak Turkhia";
+				TargetAttributes = {
+					A8244015217716B500653A28 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					A8244029217716B700653A28 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = A8244015217716B500653A28;
+					};
+					A8244034217716B700653A28 = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = A8244015217716B500653A28;
+					};
+				};
+			};
+			buildConfigurationList = A8244011217716B500653A28 /* Build configuration list for PBXProject "SimpleCalciOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A824400D217716B500653A28;
+			productRefGroup = A8244017217716B500653A28 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A8244015217716B500653A28 /* SimpleCalciOS */,
+				A8244029217716B700653A28 /* SimpleCalciOSTests */,
+				A8244034217716B700653A28 /* SimpleCalciOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A8244014217716B500653A28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A8244024217716B700653A28 /* LaunchScreen.storyboard in Resources */,
+				A8244021217716B700653A28 /* Assets.xcassets in Resources */,
+				A824401F217716B500653A28 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8244028217716B700653A28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8244033217716B700653A28 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A8244012217716B500653A28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A824401C217716B500653A28 /* ViewController.swift in Sources */,
+				A824401A217716B500653A28 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8244026217716B700653A28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A824402F217716B700653A28 /* SimpleCalciOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A8244031217716B700653A28 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A824403A217716B700653A28 /* SimpleCalciOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A824402C217716B700653A28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8244015217716B500653A28 /* SimpleCalciOS */;
+			targetProxy = A824402B217716B700653A28 /* PBXContainerItemProxy */;
+		};
+		A8244037217716B700653A28 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A8244015217716B500653A28 /* SimpleCalciOS */;
+			targetProxy = A8244036217716B700653A28 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A824401D217716B500653A28 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A824401E217716B500653A28 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A8244022217716B700653A28 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A8244023217716B700653A28 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A824403C217716B700653A28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A824403D217716B700653A28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A824403F217716B700653A28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2745B5XCV5;
+				INFOPLIST_FILE = SimpleCalciOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sarthak.SimpleCalciOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A8244040217716B700653A28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2745B5XCV5;
+				INFOPLIST_FILE = SimpleCalciOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sarthak.SimpleCalciOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A8244042217716B700653A28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2745B5XCV5;
+				INFOPLIST_FILE = SimpleCalciOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sarthak.SimpleCalciOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleCalciOS.app/SimpleCalciOS";
+			};
+			name = Debug;
+		};
+		A8244043217716B700653A28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2745B5XCV5;
+				INFOPLIST_FILE = SimpleCalciOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sarthak.SimpleCalciOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SimpleCalciOS.app/SimpleCalciOS";
+			};
+			name = Release;
+		};
+		A8244045217716B700653A28 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2745B5XCV5;
+				INFOPLIST_FILE = SimpleCalciOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sarthak.SimpleCalciOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleCalciOS;
+			};
+			name = Debug;
+		};
+		A8244046217716B700653A28 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 2745B5XCV5;
+				INFOPLIST_FILE = SimpleCalciOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = sarthak.SimpleCalciOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SimpleCalciOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A8244011217716B500653A28 /* Build configuration list for PBXProject "SimpleCalciOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A824403C217716B700653A28 /* Debug */,
+				A824403D217716B700653A28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A824403E217716B700653A28 /* Build configuration list for PBXNativeTarget "SimpleCalciOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A824403F217716B700653A28 /* Debug */,
+				A8244040217716B700653A28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8244041217716B700653A28 /* Build configuration list for PBXNativeTarget "SimpleCalciOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8244042217716B700653A28 /* Debug */,
+				A8244043217716B700653A28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8244044217716B700653A28 /* Build configuration list for PBXNativeTarget "SimpleCalciOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8244045217716B700653A28 /* Debug */,
+				A8244046217716B700653A28 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A824400E217716B500653A28 /* Project object */;
+}
