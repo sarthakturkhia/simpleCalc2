@@ -222,11 +222,9 @@
                                     <action selector="close:" destination="j8x-nN-FRG" eventType="touchUpInside" id="QnZ-Uu-Pdl"/>
                                 </connections>
                             </button>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xvp-uR-ewY">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xvp-uR-ewY">
                                 <rect key="frame" x="32" y="89" width="310" height="466"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" constant="1000" id="Zah-CT-sDQ"/>
-                                </constraints>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </scrollView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>

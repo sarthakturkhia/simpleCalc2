@@ -11,17 +11,19 @@ import UIKit
 class HistoryViewController: UIViewController {
     var history:[String] = []
     var deflect: Int = 0
+     @IBOutlet weak var scroller: UIScrollView!
+    
     override func viewDidLoad() {
         print(history)
         super.viewDidLoad()
         for item in history {
-            let uiLabel: UILabel = UILabel(frame: CGRect(x: 0 , y: deflect, width: 100, height: 50))
+            let uiLabel: UILabel = UILabel(frame: CGRect(x: 0 , y: deflect, width: 800, height: 50))
             uiLabel.text = item
             scroller.addSubview(uiLabel)
             deflect += 50
         }
     }
-    @IBOutlet weak var scroller: UIScrollView!
+   
     
     @IBAction func close(_ sender: Any) {
         dismiss(animated: true, completion: nil)
