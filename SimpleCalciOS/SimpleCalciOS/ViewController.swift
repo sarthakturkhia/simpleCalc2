@@ -12,12 +12,20 @@ class ViewController: UIViewController {
     @IBOutlet weak var calcLabel: UILabel!
     var currentFunction : String = ""
     var operation:[String] = []
+    var history:[String] = []
+    var currentHist: String = ""
     
     @IBAction func clear(_ sender: Any) {
         self.calcLabel.text = nil
         currentFunction = ""
         operation = []
     }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        let destVC : HistoryViewController = segue.destination as! HistoryViewController
+        destVC.history = history
+    }
+    
     @IBAction func Digit(_ sender: UIButton) {
         if calcLabel.text == nil{
             calcLabel.text = String(sender.tag)
@@ -36,6 +44,11 @@ class ViewController: UIViewController {
         
     }
     
+    @IBAction func history(_ sender: Any) {
+        performSegue( withIdentifier: "historySegue", sender: self)
+        
+    }
+    
     @IBAction func calculate(_ sender: UIButton) {
         var result: Int = 0
         if calcLabel.text != nil{
@@ -43,18 +56,23 @@ class ViewController: UIViewController {
         }
             if currentFunction == "+"{
                 result = Int(operation[0])! + Int(operation[1])!
+                currentHist = operation[0] + "+" + operation[1] + "=" + String(result)
             }
             else if currentFunction == "-"{
                 result = Int(operation[0])! - Int(operation[1])!
+                currentHist = operation[0] + "-" + operation[1] + "=" + String(result)
             }
             else if currentFunction == "*"{
                 result = Int(operation[0])! * Int(operation[1])!
+                currentHist = operation[0] + "*" + operation[1] + "=" + String(result)
             }
             else if currentFunction == "/"{
                 result = Int(operation[0])! / Int(operation[1])!
+                currentHist = operation[0] + "/" + operation[1] + "=" + String(result)
             }
             else if currentFunction == "%"{
                 result = Int(operation[0])! % Int(operation[1])!
+                currentHist = operation[0] + "%" + operation[1] + "=" + String(result)
             }
             self.calcLabel.text = String(result)
             if currentFunction == "Avg"{
@@ -62,13 +80,19 @@ class ViewController: UIViewController {
                 let count: Int = operation.count
                 for i in operation{
                     sum += Int(i)!
+                    currentHist += i + " "
                 }
                 result = (sum/count)
+                currentHist += "Avg = " + String(result)
                 self.calcLabel.text = String(result)
 
             }
             else if currentFunction == "Count"{
                 result = operation.count
+                for i in operation{
+                    currentHist += i + " "
+                }
+                currentHist += "Count = " + String(result)
                 self.calcLabel.text = String(result)
             }
 
@@ -84,9 +108,12 @@ class ViewController: UIViewController {
                     else{
                         result = factorial(num)
                     }
+                    currentHist = String(num) + " Fact = " + String(result)
                     self.calcLabel.text = String(result)
                 }
             }
+        history.append(currentHist)
+        currentHist = ""
         operation = []
     }
     
@@ -102,7 +129,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
-
+    
+    
+   
+    
 
 }
 

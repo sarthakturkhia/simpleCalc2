@@ -14,6 +14,7 @@
 		A8244024217716B700653A28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8244022217716B700653A28 /* LaunchScreen.storyboard */; };
 		A824402F217716B700653A28 /* SimpleCalciOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A824402E217716B700653A28 /* SimpleCalciOSTests.swift */; };
 		A824403A217716B700653A28 /* SimpleCalciOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8244039217716B700653A28 /* SimpleCalciOSUITests.swift */; };
+		A8EEFA6D217EE59C0042F32D /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8EEFA6C217EE59C0042F32D /* HistoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		A8244035217716B700653A28 /* SimpleCalciOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpleCalciOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8244039217716B700653A28 /* SimpleCalciOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCalciOSUITests.swift; sourceTree = "<group>"; };
 		A824403B217716B700653A28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A8EEFA6C217EE59C0042F32D /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 				A8244020217716B700653A28 /* Assets.xcassets */,
 				A8244022217716B700653A28 /* LaunchScreen.storyboard */,
 				A8244025217716B700653A28 /* Info.plist */,
+				A8EEFA6C217EE59C0042F32D /* HistoryViewController.swift */,
 			);
 			path = SimpleCalciOS;
 			sourceTree = "<group>";
@@ -256,6 +259,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A8EEFA6D217EE59C0042F32D /* HistoryViewController.swift in Sources */,
 				A824401C217716B500653A28 /* ViewController.swift in Sources */,
 				A824401A217716B500653A28 /* AppDelegate.swift in Sources */,
 			);

@@ -184,6 +184,14 @@
                                     <action selector="calculate:" destination="BYZ-38-t0r" eventType="touchUpInside" id="vdc-lo-Fph"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="aM1-Ae-2MN">
+                                <rect key="frame" x="263" y="539" width="50" height="48"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="History"/>
+                                <connections>
+                                    <action selector="history:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fdW-5f-Og6"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
@@ -191,11 +199,46 @@
                     <navigationItem key="navigationItem" id="bwf-d7-f8U"/>
                     <connections>
                         <outlet property="calcLabel" destination="XtM-PT-iDl" id="gFD-Z0-26r"/>
+                        <segue destination="j8x-nN-FRG" kind="presentation" identifier="historySegue" id="6cV-f6-9AM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="52" y="20.239880059970016"/>
+        </scene>
+        <!--History View Controller-->
+        <scene sceneID="Gbx-yX-uld">
+            <objects>
+                <viewController id="j8x-nN-FRG" customClass="HistoryViewController" customModule="SimpleCalciOS" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="pdp-R9-rfe">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mpx-sw-ZbU">
+                                <rect key="frame" x="325" y="563" width="34" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="back"/>
+                                <connections>
+                                    <action selector="close:" destination="j8x-nN-FRG" eventType="touchUpInside" id="QnZ-Uu-Pdl"/>
+                                </connections>
+                            </button>
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="xvp-uR-ewY">
+                                <rect key="frame" x="32" y="89" width="310" height="466"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="1000" id="Zah-CT-sDQ"/>
+                                </constraints>
+                            </scrollView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Ixr-sj-SqA"/>
+                    </view>
+                    <connections>
+                        <outlet property="scroller" destination="xvp-uR-ewY" id="i2K-6K-8mS"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9Q2-M2-3kW" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="885.60000000000002" y="-17.541229385307346"/>
         </scene>
     </scenes>
 </document>
